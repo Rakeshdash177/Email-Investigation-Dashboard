@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+
+# next.js build output
+/.next/
+/out/
+
+# env files (never commit secrets)
+.env
+.env.local
+.env*.local
+
+# runtime data (tenant registry — not secret, but not source either)
+/data/tenants.json
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# typescript
+next-env.d.ts
+*.tsbuildinfo
